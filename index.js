@@ -1,7 +1,7 @@
 const { CommandoClient } = require('discord.js-commando');
 const { Structures, MessageEmbed, MessageAttachment } = require('discord.js');
 const path = require('path');
-const { prefix, token, discord_owner_id } = require('./config.json');
+//const { prefix, token, discord_owner_id } = require('./config.json');
 const db = require('quick.db');
 const Canvas = require('canvas');
 
@@ -248,4 +248,4 @@ client.on('guildMemberAdd', async member => {
   }
 });
 
-client.login(token);
+client.login(TOKEN);
